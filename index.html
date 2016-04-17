@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="weather.css">
+</head>
+<body>
+	<div class="container-fluid" id="wrapper">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2" id="city-section">
+				<h2>Enter the name of your city</h2> 
+				<input type="text" class="form-control" id="name" placeholder="City Name">
+				<input type="button" id="btn" class="btn-primary" value="Get Weather">
+
+				<div class="row" id="weather-div">
+					<div class="col-md-4" id="weather-state">
+						<h3>Sky Condition</h3>
+						<div id="weather-icon"></div>
+						<p id="sky-state"></p>
+					</div>
+
+					<div class="col-md-4" id="temperature">
+						<h3>Temperature</h3>
+						<p id="temp"></p>
+						<p id="max-temp"></p>
+						<p id="min-temp"></p>
+					</div>
+
+					<div class="col-md-4" id="weather-data">
+						<h3>Other Data</h3>
+						<p id="wind"></p>
+						<p id="humidity"></p>
+						<p id="pressure"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+#name{
+	width: 25%;
+	margin-left: 38%;
+}
+
+#btn{
+	margin-top:1em;
+	padding:.3em;
+	border: 0;
+	border-radius: 5px;
+}
+
+#wrapper {
+	background-image: url("weather-bg.jpg");
+	height: 100vh;
+	background-size: cover;
+	color:#fff;
+}
+
+#weather-div{
+	display: none;
+	margin-top: 2em;
+	background-color: rgba(30,30,30,0.5);
+	height: 100%;
+	font-size: 1.1em;
+}
+
+#weather-state {
+	text-transform: capitalize;
+}
+
+#weather-div div{
+	text-align: center;
+}
+
+#weather-div h3{
+	text-decoration: underline;
+}
+
+#city-section{
+	text-align: center;
+}
